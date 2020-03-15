@@ -1,0 +1,17 @@
+---
+services: docker
+
+before_install:
+  # Upgrade Docker.
+  - sudo apt-get update
+  - sudo apt-get -y -o Dpkg::Options::="--force-confnew" install docker-ce
+  
+script:
+  # Test building Dockerfile.
+  - docker build -t docker-sonarr .
+
+  # Test running the container
+  - docker run -d -p 8989:8989 -v /tmp:/config docker-sonarr
+
+  # Curl test
+  #- curl http://127.0.0.1:7878
