@@ -26,7 +26,7 @@ This image is built on Docker Hub automatically any time the upstream OS contain
   docker run -d -p 8989:8989 \
   -v /path/to/host:/config \
   -v /path/to/host:/downloads \
-  -v /path/to/host:/movies \
+  -v /path/to/host:/tv \
   synominit/docker-sonarr-alpine
   ```
 
