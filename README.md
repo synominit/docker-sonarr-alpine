@@ -2,7 +2,7 @@
 
 # Non Privileged Minimal Sonarr Docker Container using Alpine
 
-The goal of this project is to create a containerized Radarr application that will run non privileged with a minimal attack surface area you may check the container for any vulnerabilities by clicking [![Docker Repository on Quay](https://quay.io/repository/synominit/docker-radarr-alpine/status "Docker Repository on Quay")](https://quay.io/repository/synominit/docker-radarr-alpine)
+The goal of this project is to create a containerized Radarr application that will run non privileged with a minimal attack surface area, you can check the container for any vulnerabilities by clicking on the quay.io badge above.
 
 
 ## Tags
