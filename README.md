@@ -1,4 +1,4 @@
-[![Docker Repository on Quay](https://quay.io/repository/synominit/docker-radarr-alpine/status "Docker Repository on Quay")](https://quay.io/repository/synominit/docker-radarr-alpine)[![Build Status](https://travis-ci.com/synominit/docker-sonarr-alpine.svg?token=UxNrdTp4uZjxLv6pUq4x&branch=master)](https://travis-ci.com/synominit/docker-sonarr-alpine)
+[![Docker Repository on Quay](https://quay.io/repository/synominit/docker-sonarr-alpine/status "Docker Repository on Quay")](https://quay.io/repository/synominit/docker-sonarr-alpine)[![Build Status](https://travis-ci.com/synominit/docker-sonarr-alpine.svg?token=UxNrdTp4uZjxLv6pUq4x&branch=master)](https://travis-ci.com/synominit/docker-sonarr-alpine)
 
 # Non Privileged Minimal Sonarr Docker Container using Alpine
 
